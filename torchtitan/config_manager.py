@@ -24,8 +24,6 @@ TORCH_DTYPE_MAP = {
     "bfloat16": torch.bfloat16,
 }
 
-# test
-
 
 def string_list(raw_arg):
     return raw_arg.split(",")
